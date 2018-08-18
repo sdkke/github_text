@@ -1,0 +1,135 @@
+/*6800代码: CSS Reset、 1000+个class*/
+/*CSS Reset*/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  background: #fff;
+  font-size: 14px;
+  font-family: 'Helvatic Neue', 'Helvatic', 'Arial';
+  line-height: 1.42857;
+}
+h1 {
+  font-size: 36px;
+  margin: 20px 0 10px;
+}
+h2 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+h4 {
+  font-size: 18px;
+  margin: 10px 0 10px;
+}
+h5 {
+  font-size: 14px;
+  margin: 10px 0 10px;
+}
+h6 {
+  font-size: 12px;
+  margin: 10px 0 10px;
+}
+p {
+  margin: 0 0 10px;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+/*1000+个class*/
+.container,         /*定宽容器*/
+.container-fluid {  /*变宽容器*/
+  margin: 0 auto;
+}
+.container:before,
+.container-fluid:before {
+  content: ' ';
+  display: table;
+}
+.container:after,
+.container-fluid:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.navbar {
+  min-height: 50px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+.navbar-right {
+  float: right;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin-left: -5px;
+}
+.list-inline > li {
+  float: left;
+  padding: 0 5px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.my-img {
+  padding: 10px 5px;
+  float: left;
+}
+
+/*大型PC屏幕专用样式*/
+@media screen and (min-width: 1200px){
+  .container {
+    width: 1170px;
+  }
+  .my-img {
+    width: 25%;
+  }
+}
+/*中等PC屏幕专用样式*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .container {
+    width: 970px;
+  }
+  .my-img {
+    width: 25%;
+  }
+}
+/*小型PAD屏幕专用样式*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .container {
+    width: 750px;
+  }
+  .my-img {
+    width: 50%;
+  }
+}
+/*超小PHONE屏幕专用样式*/
+@media screen and (max-width: 767px){
+  .container {
+    width: 100%;
+  }
+  .my-img {
+    width: 100%;
+  }
+}
+
+
+
+

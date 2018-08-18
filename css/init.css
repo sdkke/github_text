@@ -1,0 +1,377 @@
+/*页头*/
+.header {
+    background: #009B72;
+    height: 30px;
+}
+
+.header p {
+    margin-left: 66%;
+}
+
+.header span {
+    color: #fff;
+    border-right: 1px solid #47B488;
+    padding: 0 14px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+#denglu {
+    border-left: 1px solid #47B488;
+}
+
+.header span:hover {
+    background: #47B488;
+}
+
+.wrapper {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    line-height: 80px;
+    position: relative;
+}
+
+.wrapper .log {
+    position: absolute;
+    top: 32px;
+    left: 50px;
+}
+
+.wrapper ul {
+    float: right;
+    margin-right: 85px;
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+}
+
+.wrapper ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.wrapper ul li a {
+    color: #7B7B7B;
+}
+
+.wrapper ul li .aactive {
+    border-bottom: 2px solid #2AAD6F;
+}
+
+/*模态框*/
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 999;
+    display: none;
+}
+
+.modal .right {
+    font-size: 28px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.modal .modal_dialog {
+    width: 400px;
+    height: 430px;
+    background: #FBFBFB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -200px;
+}
+
+.modal .modal_dialog .log {
+    display: inline-block;
+    margin: 35px 95px 10px;
+}
+
+.modal .modal_dialog p {
+    text-align: center;
+}
+
+.modal .modal_dialog #alert {
+    width: 340px;
+    margin: 0 auto;
+    padding: 6px 12px;
+}
+
+.modal .modal_dialog .error {
+    color: #009B72;
+}
+
+.modal input {
+    width: 85%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+
+#modal_btn {
+    cursor: pointer;
+}
+
+.modal #login {
+    text-decoration: underline;
+    color: #00925F;
+    margin-right: -245px;
+}
+
+.modal form {
+    text-align: center;
+}
+
+.modal .rests {
+    margin-top: 30px;
+}
+
+
+
+/*页面尾部*/
+#footer {
+    width: 100%;
+    height: 383px;
+    margin-top: -7px;
+    background: #F6F6F6;
+    position: relative;
+}
+
+#footer .footer_sitemap {
+    width: 1176px;
+    height: 158px;
+    margin: 0 auto;
+}
+
+#footer .footer_sitemap .lap_one_quarter {
+    width: 220.5px;
+    height: 158px;
+}
+
+#footer .footer_sitemap ul {
+    /*text-decoration: none;*/
+    list-style: none;
+    position: absolute;
+    top: 75px;
+    left: 85px;
+    /*margin: auto 0;*/
+}
+
+#footer .footer_sitemap ul li {
+    float: left;
+}
+
+#footer .footer_sitemap .lap_one_quarter a {
+    font-size: 0.8125rem;
+    display: block;
+    margin: 5px 0;
+    color: #363636;
+}
+
+#footer .footer_sitemap .lap_one_quarter a:hover {
+    color: #2AAD6F;
+}
+
+#footer .footer_sitemap .lap_one_quarter .m_item {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#footer .foot_right {
+    float: right;
+    margin-top: 70px;
+}
+
+#footer .foot_right p {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#footer .foot_right .number {
+    font-size: 20px;
+    color: #393939;
+}
+
+.foot_info {
+    position: relative;
+    top: 60px;
+    width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid #CFCFCF;
+    padding-top: 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.foot_info p {
+    font-size: 0.8125rem;
+    color: #7B7B7B;
+    display: inline-block;
+    /* 	vertical-align: middle; */
+}
+
+.foot_info span {
+    /*position:absolute;*/
+    vertical-align: middle;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../img/prolice.png) no-repeat;
+}
+
+.foot_info span:hover {
+    background: url("../img/prolice(1).png") no-repeat 0 0;
+}
+
+.guanzhu {
+    margin-left: 50px;
+    height: 40px;
+    float: right;
+}
+
+.weibo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/weibo.png) no-repeat;
+}
+
+.weibo:hover {
+    background: url("../img/weibo(1).png") no-repeat;
+}
+
+.weixin {
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/weixin.png) no-repeat;
+}
+
+.weixin1 {
+    position: relative;
+    top: -212px;
+    left: -53px;
+    display: none;
+}
+
+.weixin:hover {
+    background: url("../img/weixin(1).png") no-repeat;
+}
+
+.weixin:hover .weixin1 {
+    display: block;
+}
+
+.jinbiao {
+    vertical-align: middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/jinbiao.png) no-repeat;
+}
+
+.jinbiao:hover {
+    background: url("../img/jinbiao(1).png") no-repeat;
+}
+
+.jinbiao1 {
+    position: relative;
+    top: -212px;
+    left: -53px;
+    display: none;
+}
+
+.jinbiao:hover .jinbiao1 {
+    display: block;
+}
+
+.fixed {
+    width: 42px;
+    height: 74px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.fixed a {
+    display: block;
+    width: 42px;
+    height: 36px;
+    background: #EDEDED;
+    text-align: center;
+    line-height: 36px;
+    /*vertical-align: middle;*/
+}
+
+.fixed .to_top {
+    margin-bottom: 2px;
+    position: absolute;
+}
+
+.fixed .contact_way {
+    position: absolute;
+    top: 40px;
+}
+
+.fixed span {
+    width: 78px;
+    height: 36px;
+    background: #47B488;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.fixed .hui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.fixed .to_top:hover + .hui {
+    margin-left: -78px;
+    opacity: 1;
+}
+
+.fixed .to_top:hover {
+    background: #47B488;
+}
+
+.fixed .fan {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.fixed .contact_way:hover + .fan {
+    margin-left: -78px;
+    opacity: 1;
+}
+
+.fixed .contact_way:hover {
+    background: #47B488;
+}
+#footer .guanzhu img{
+    max-width:none;
+}

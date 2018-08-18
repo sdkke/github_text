@@ -1,0 +1,23 @@
+/*页头*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a {
+    text-decoration: none;
+}

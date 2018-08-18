@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+    font-family: "微软雅黑";
+    min-width: 1200px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+
+.product_index {
+    height: 3161px;
+    background: #F7F7F7;
+    color: #7B7B7B;
+}
+
+.product_index .list {
+    width: 1176px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0 auto;
+}
+
+.product_index .list ul {
+    list-style: none;
+}
+
+.product_index .list ul li {
+    float: left;
+}
+
+.product1 {
+    width: 1200px;
+    height: 738px;
+    margin: 0 auto;
+    background: #F7F7F7;
+    padding: 0 0.75em;
+}
+
+.product1 .pull_left {
+    width: 770px;
+    height: 738px;
+    float: left;
+}
+
+.product1 .pull_left .left_up {
+    position: relative;
+    display: inline-block;
+    width: 770px;
+    height: 364px;
+    overflow: hidden;
+    /*transition: all 1s ease;*/
+}
+
+.product1 .pull_left .left_up .phone,
+.product1 .pull_left .left_down .phone,
+.product1 .right .phone{
+    /*transform: scale(1);*/
+    transition: all 1s ease;
+}
+
+.product1 .pull_left .left_up:hover .phone,
+.product1 .pull_left .left_down:hover .phone,
+.product1 .right:hover .phone{
+    transform: scale(1.1);
+    /*transition: all 1s ease;*/
+}
+
+.product1 .pull_left .left_down {
+    position: relative;
+    display: inline-block;
+    width: 770px;
+    height: 364px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.product1 .pull_left a img {
+    position: absolute;
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 770px;*/
+    /*height: auto;*/
+}
+
+.product1 .right a {
+    position: relative;
+    display: inline-block;
+    width: 396px;
+    height: 738px;
+    float: right;
+    overflow: hidden;
+}
+
+.product1 .right a img {
+    position: absolute;
+    width: 396px;
+    height: 738px;
+}
+
+.product2 {
+    height: 1738px;
+}
+
+.product2 .download {
+    height: 30px;
+    line-height: 30px;
+    font-size: 23px;
+    color: #393939;
+    margin-top: 95px;
+    text-align: center;
+    background: url("../img/wire.png") no-repeat center;
+}
+
+.product2 span {
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 43px;
+}
+
+.product2 span .serial_name {
+    color: #1E1E1E;
+}
+
+.brick_list {
+    width: 1176px;
+    height: 371px;
+    margin: 0 auto;
+}
+
+.brick_list .brick_item {
+    width: 286px;
+    height: 365px;
+    float: left;
+    background: #fff;
+    padding: 60px 10px 45px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.brick_list .brick_item:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    -moz-transform: translate3d(0, -2px, 0);
+    -o-transform: translate3d(0, -2px, 0);
+    -ms-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+}
+
+.brick_list .brick_item .oppo_tj {
+    display: block;
+    width: 100%;
+    padding-left: 52.5px;
+    padding-right: 52.5px;
+
+}
+.brick_list .brick_item .brick_title{
+    text-align: center;
+    color: #141414;
+    font-size: 16px;
+    /* font-weight: 600; */
+    margin-top: 35px;
+}
+.brick_list .brick_item .brick_desc{
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.product2 .feature{
+    width: 1176px;
+    height: 300px;
+    margin: 0 auto;
+}
